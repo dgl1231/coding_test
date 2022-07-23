@@ -31,7 +31,6 @@ function solution(name) {
 function solution(name) {
     let answer = 0;
     let nameArr = [0];
-
     for (let i = 0; i < name.length; i++) {
         // 문자열을 순차적으로 조회해서 A를 찾음
         if (name[i] === "A") {
